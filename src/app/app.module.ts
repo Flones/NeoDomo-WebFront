@@ -43,6 +43,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts';
 import { ForgotpasswordComponent } from './views/forgotpassword/forgotpassword.component';
+import { ChangepasswordComponent } from './views/changepassword/changepassword.component';
 
 @NgModule({
   imports: [
@@ -68,7 +69,8 @@ import { ForgotpasswordComponent } from './views/forgotpassword/forgotpassword.c
     P500Component,
     LoginComponent,
     RegisterComponent,
-    ForgotpasswordComponent
+    ForgotpasswordComponent,
+    ChangepasswordComponent
   ],
   providers: [
     {

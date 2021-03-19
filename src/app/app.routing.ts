@@ -9,6 +9,7 @@ import { P500Component } from './views/error/500.component';
 import { LoginComponent } from './views/login/login.component';
 import { RegisterComponent } from './views/register/register.component';
 import { ForgotpasswordComponent } from './views/forgotpassword/forgotpassword.component';
+import { ChangepasswordComponent } from './views/changepassword/changepassword.component';
 
 export const routes: Routes = [
   {
@@ -42,6 +43,13 @@ export const routes: Routes = [
     component: ForgotpasswordComponent,
     data: {
       title: 'Forgot Password Page'
+    }
+  },
+  {
+    path: 'changepassword',
+    component: ChangepasswordComponent,
+    data: {
+      title: 'Change Password Page'
     }
   },
   {
