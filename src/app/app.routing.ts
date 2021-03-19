@@ -41,7 +41,7 @@ export const routes: Routes = [
     path: 'forgotpassword',
     component: ForgotpasswordComponent,
     data: {
-      title: 'Login Page'
+      title: 'Forgot Password Page'
     }
   },
   {
