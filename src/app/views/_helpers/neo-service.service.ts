@@ -8,6 +8,7 @@ export class NeoServiceService {
   constructor(private http: HttpClient) {}
 
   getTest() {
-    return this.http.get(`${environment.baseUrl}/api/titi/toto`);
+    //return this.http.get(`${environment.baseUrl}/api/titi/toto`);
+    return this.http.get(`${environment.baseUrl}/application/test`);
   }
 }
