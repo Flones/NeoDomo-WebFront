@@ -1,0 +1,10 @@
+{
+  "/local": {
+    "target": "http://localhost:8020",
+    "secure": false,
+    "pathRewrite": {
+      "^/local": ""
+    },
+    "logLevel": "debug"
+  }
+}
