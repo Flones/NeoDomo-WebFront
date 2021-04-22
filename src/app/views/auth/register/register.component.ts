@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from "@angular/forms";
 import { HttpClient } from '@angular/common/http';
 import { NeoServiceService } from '../../_helpers/neo-service.service';
+import { AuthService } from '../../_helpers/auth.service';
 interface monform {
   email: string;
   username: string;
@@ -24,7 +25,7 @@ export class RegisterComponent {
     password: "",
   }
 
-  constructor(private _service: NeoServiceService) { }
+  constructor(private _service: AuthService) { }
 
   public submit() {
     console.log(this.blankUser);
