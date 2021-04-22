@@ -1,12 +1,11 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
-import { MypublicationsScreenComponent } from "./mypublications-screen/mypublications-screen.component";
-import { NewpostComponent } from "../post/newpost/newpost.component";
+import { NewpostComponent } from "./newpost/newpost.component";
 
 const routes: Routes = [
   {
     path: "",
-    component: MypublicationsScreenComponent,
+    component: NewpostComponent,
     data: {
       title: "",
     },
@@ -17,4 +16,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class MypublicationsRoutingModule {}
+export class NewpostRoutingModule {}

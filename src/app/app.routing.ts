@@ -73,6 +73,13 @@ export const routes: Routes = [
             (m) => m.MypublicationsModule
           ),
       },
+      {
+        path: "newpost",
+        loadChildren: () =>
+          import("./views/post/newpost.module").then(
+            (m) => m.NewpostModule
+          ),
+      },
     ],
   },
   { path: "**", component: P404Component },
