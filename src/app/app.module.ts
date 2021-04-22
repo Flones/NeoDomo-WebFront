@@ -46,6 +46,7 @@ import { ChartsModule } from "ng2-charts";
 import { HttpClientModule } from "@angular/common/http";
 import { ForgotpasswordComponent } from "./views/auth/forgotpassword/forgotpassword.component";
 import { RegisterComponent } from "./views/auth/register/register.component";
+import { FormsModule } from "@angular/forms";
 @NgModule({
   imports: [
     BrowserModule,
@@ -63,6 +64,7 @@ import { RegisterComponent } from "./views/auth/register/register.component";
     ChartsModule,
     IconModule,
     IconSetModule.forRoot(),
+    FormsModule,
   ],
   declarations: [
     AppComponent,
