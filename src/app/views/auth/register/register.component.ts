@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup } from "@angular/forms";
 import { HttpClient } from '@angular/common/http';
 import { NeoServiceService } from '../../_helpers/neo-service.service';
 import { AuthService } from '../../_helpers/auth.service';
-interface monform {
+interface myForm {
   email: string;
   username: string;
   lastname: string;
@@ -17,7 +17,7 @@ interface monform {
 export class RegisterComponent {
 
   form: FormGroup;
-  public blankUser: monform = {
+  public blankUser: myForm = {
     email: "",
     username: "",
     lastname: "",
